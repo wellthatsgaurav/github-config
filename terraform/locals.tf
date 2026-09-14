@@ -7,11 +7,6 @@ locals {
       description = "Core maintainers for the organization."
       privacy     = "closed"
     }
-
-    contributors = {
-      description = "Active contributors with triage access."
-      privacy     = "closed"
-    }
   }
 
   team_memberships = {}

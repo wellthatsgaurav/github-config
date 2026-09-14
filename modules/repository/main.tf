@@ -36,7 +36,7 @@ resource "github_repository_ruleset" "default_branch" {
 
   conditions {
     ref_name {
-      include = ["~DEFAULT_BRANCH~"]
+      include = ["~DEFAULT_BRANCH"]
       exclude = []
     }
   }
