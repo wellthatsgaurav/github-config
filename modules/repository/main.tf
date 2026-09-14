@@ -3,6 +3,8 @@ resource "github_repository" "repo" {
   description = var.description
   visibility  = var.visibility
 
+  auto_init = var.settings.auto_init
+
   allow_squash_merge          = var.settings.allow_squash_merge
   allow_merge_commit          = var.settings.allow_merge_commit
   allow_rebase_merge          = var.settings.allow_rebase_merge
