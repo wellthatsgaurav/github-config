@@ -49,5 +49,29 @@ locals {
         required_linear_history           = true
       }
     }
+
+    backend = {
+      description = "Backend service for the project."
+      visibility  = "public"
+
+      topics = [
+        "backend",
+        "kotlin",
+        "java",
+        "open-source",
+      ]
+    }
+
+    frontend = {
+      description = "Frontend application for the project."
+      visibility  = "public"
+
+      topics = [
+        "frontend",
+        "react",
+        "typescript",
+        "open-source",
+      ]
+    }
   }
 }

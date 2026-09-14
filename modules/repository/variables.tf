@@ -33,6 +33,7 @@ variable "topics" {
 
 variable "settings" {
   type = object({
+    auto_init                   = optional(bool, true)
     allow_squash_merge          = optional(bool, true)
     allow_merge_commit          = optional(bool, false)
     allow_rebase_merge          = optional(bool, false)
