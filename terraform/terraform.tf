@@ -1,0 +1,18 @@
+terraform {
+  required_version = "1.16.2"
+
+  required_providers {
+    github = {
+      source  = "integrations/github"
+      version = "6.13.0"
+    }
+  }
+
+  cloud {
+    organization = "wellthatsgaurav"
+
+    workspaces {
+      name = "github-config"
+    }
+  }
+}

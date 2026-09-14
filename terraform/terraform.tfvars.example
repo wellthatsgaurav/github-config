@@ -1,0 +1,5 @@
+github_organization = "wellthatsgaurav"
+
+# App credentials are intentionally omitted.
+#
+# Configure them as sensitive Terraform variables in HCP Terraform.
